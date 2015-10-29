@@ -21,7 +21,7 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 #est .c-a a:before, #est .c-a .a:before { display: block !important; position: absolute; top: auto; bottom: 1px; left: 0; width: 100%; height: 1px; background-color: #4183c4; content: ''; -webkit-transition: all 0.2s; -webkit-backface-visibility: hidden; transition: all 0.2s; backface-visibility: hidden; -webkit-transform: scaleX(0); transform: scaleX(0);}
 #est .head .c-a a:before, #est .head .c-a .a:before { background-color: #fff;}
 #est .c-a a:hover:before, #est .c-a .a:hover:before { -webkit-transform: scaleX(1); transform: scaleX(1);}
-#est .c-white .circular { box-shadow: 0 0 0 .1em rgba(255,255,255,.5) inset;}
+#est .c-white .circular { font-size: 1.5em; box-shadow: 0 0 0 .1em rgba(255,255,255,.5) inset;}
 #est .c-white .circular:hover { box-shadow: 0 0 0 .1em rgba(255,255,255,1) inset;}
 #est .wrap { width: 100%; margin: 0; padding: 0; border: none; border-radius: 0; box-shadow: none;}
 #est .divider > .icon { height: 1.2em; line-height: 1.2;}
