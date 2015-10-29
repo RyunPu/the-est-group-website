@@ -1,0 +1,187 @@
+a { -webkit-tap-highlight-color: transparent;}
+.c-tal { text-align: left;}
+.c-tac { text-align: center;}
+.c-white, .c-white:hover, .c-white a, .c-white a:hover { color: #fff;}
+.c-black, .c-black:hover, .c-black a, .c-black a:hover { color: #1b1c1d;}
+.c-flex { display: -webkit-flex; display: flex; -webkit-justify-content: center; justify-content: center; -webkit-align-items: center; align-items: center;}
+i.icon { -webkit-transition: color 0.6s ease, transform 0.2s ease, box-shadow 0.3s ease; transition: color 0.6s ease, transform 0.2s ease, transform 0.2s ease;}
+i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;}
+.wow { -webkit-animation-duration: .5s; animation-duration: .5s;}
+.wow.infinite { -webkit-animation-iteration-count:infinite; animation-iteration-count:infinite; -webkit-animation-direction: alternate-reverse; animation-direction: alternate-reverse;}
+.mask { right: 0; bottom: 0;}
+
+.phphub { background: url(../img/project/logo-phphub.png) no-repeat; background-size: contain;}
+.phphub-mobile { background: url(../img/project/logo-phphub-mobile.png) no-repeat; background-size: contain;}
+.oralmaster { background: url(../img/project/logo-oralmaster.png) no-repeat; background-size: contain;}
+.githubdaily { background: url(../img/logo-githubdaily.png) no-repeat; background-size: contain;}
+
+#est .c-mask { height: 100%;}
+#est .c-mask.dimmer { position: fixed; right: 0; bottom: 0; background: #000;}
+#est .c-a a, #est .c-a .a { position: relative;}
+#est .c-a a:before, #est .c-a .a:before { display: block !important; position: absolute; top: auto; bottom: 1px; left: 0; width: 100%; height: 1px; background-color: #4183c4; content: ''; -webkit-transition: all 0.2s; -webkit-backface-visibility: hidden; transition: all 0.2s; backface-visibility: hidden; -webkit-transform: scaleX(0); transform: scaleX(0);}
+#est .head .c-a a:before, #est .head .c-a .a:before { background-color: #fff;}
+#est .c-a a:hover:before, #est .c-a .a:hover:before { -webkit-transform: scaleX(1); transform: scaleX(1);}
+#est .c-white .circular { box-shadow: 0 0 0 .1em rgba(255,255,255,.5) inset;}
+#est .c-white .circular:hover { box-shadow: 0 0 0 .1em rgba(255,255,255,1) inset;}
+#est .wrap { width: 100%; margin: 0; padding: 0; border: none; border-radius: 0; box-shadow: none;}
+#est .divider > .icon { height: 1.2em; line-height: 1.2;}
+#est .stackable.page.grid { margin-left: 0 !important; margin-right: 0 !important;}
+
+#est .head, #est .head .page, #est .head .column { height: 100%;}
+#est .head .c-mask { background: rgba(0,0,0,.18);}
+#est .head { background: #1b1c1d url(../img/bg.jpg) center no-repeat; background-size: cover;}
+#est .head .menu { position: relative; z-index: 9; top: -.2em; margin-bottom: 0; border: none;}
+#est .head .menu  .item { margin-left: 1em; margin-right: 1em; padding-left: 0; padding-right: 0; border: none; font-size: smaller;}
+#est .head .logo { width: 40px; height: 40px; text-indent: -9999px; background: url(../img/logo.png) center no-repeat; background-size: contain;}
+#est .head .logo:hover { background: url(../img/logo.png) no-repeat; background-size: contain;}
+#est .head .flex { position: absolute; left: 0; top: -1rem; right: 0; height: 100%;}
+#est .head .c-bg { height: 100%;}
+#est h1.header { margin-bottom: 0; font-size: 6rem;}
+#est .head .info p { font-size: 2rem; color: #fff;}
+#est .head .arrow { position: absolute; left: 0; bottom: 1rem; right: 0; font-size: larger;}
+#est .head.headroom { height: auto;}
+#est .head.headroom .c-mask { background: #1b1c1d;}
+
+#est h2.header { font-size: 2rem;}
+#est .icon.header { display: block;}
+#est .horizontal.divider { width: 90%; margin-left: auto; margin-right: auto;}
+#est .built .c-mask { padding-top: 4rem; padding-bottom: 4rem; background: -webkit-linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 48%, rgba(235,224,224,1) 100%); background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 48%, rgba(235,235,235,1) 100%);}
+#est .built div.icon, #est .account div.icon { margin-bottom: 0;}
+#est .built .items i.icon, #est .account .items i.icon { width: 33%; margin: 0 auto 1.5rem; padding-top: 33%;}
+#est .built .items p, #est .account .items p { width: 90%; margin-left: auto; margin-right: auto;}
+#est .built .items .column, #est .account .items .column, #est .team .items .column { margin-top: 1rem;}
+
+#est .account .c-mask, #est .team .c-mask, #est .contact .c-mask { padding-top: 4rem; padding-bottom: 4rem;}
+#est .team .c-mask { -webkit-background: linear-gradient(135deg, rgba(24,42,115,1) 0%, rgba(33,138,174,1) 69%, rgba(32,167,172,1) 89%); background: linear-gradient(135deg, rgba(24,42,115,1) 0%, rgba(33,138,174,1) 69%, rgba(32,167,172,1) 89%);}
+#est .team .card { margin-left: auto; margin-right: auto;}
+#est .team .meta { white-space: nowrap;}
+#est .team img { width: 50%; margin-left: auto; margin-right: auto;}
+#team .avatar { width: 100%; padding-top: 80%;}
+.avatar.zxx { background: url(../img/avatar/zxx.png) center no-repeat; background-size: 60%;}
+.avatar.zjh { background: url(../img/avatar/zjh.png) center no-repeat; background-size: 60%;}
+.avatar.zh { background: url(../img/avatar/zh.png) center no-repeat; background-size: 60%;}
+.avatar.ljf { background: url(../img/avatar/ljf.png) center no-repeat; background-size: 60%;}
+.avatar.lxx { background: url(../img/avatar/lxx.png) center no-repeat; background-size: 60%;}
+.avatar.pym { background: url(../img/avatar/pym.png) center no-repeat; background-size: 60%;}
+.avatar.lgl { background: url(../img/avatar/lgl.png) center no-repeat; background-size: 60%;}
+.avatar.est { background: url(../img/logo.png) center no-repeat; background-size: 60%;}
+
+#est .about { margin-top: 2rem;}
+#est .about h3 { font-size: 1.28571429em;}
+#est .about .avatar { width: 100%; padding-top: 80%; background-size: 70%;}
+#est .about .item { margin-bottom: 2rem; padding-left: 1rem; padding-right: 1rem;}
+#est .about .items .items .item { margin-bottom: 1rem; padding-left: 0; padding-right: 0; padding-bottom: 1rem; border-bottom: dashed 1px #e3e3e3;}
+#est .about .items .items .item:last-of-type { border-bottom: none;}
+#est .about .items .items .item .header { font-size: 1em;}
+#est .about .label { margin-bottom: .5rem; margin-right: .5rem; font-weight: normal;}
+#est .about .item .image { max-width: 250px !important; max-height: 80px; box-shadow: 0 0 1px 0 #767676; border-radius: 5px;}
+#est .about .item .image  img { display: inline-block;}
+#est .about .card .icon { margin-top: .3rem;}
+#est .about .card > .image.est { background: rgba(32,167,172,1);}
+#est .about .image.est .avatar { background-size: 60%;}
+#est .about .list .item { margin-bottom: 0; padding-left: 0; padding-right: 0;}
+
+#est .headroom { -webkit-animation-duration: .4s; animation-duration: .4s;}
+#est .headroom { position: fixed; left: 0; right: 0; top: 0; z-index: 999;}
+#est .headroom + .about { margin-top: 96px;}
+#est .head .menu.headroom { position: fixed; top: 0; padding-top: 1rem; padding-bottom: 1rem;}
+#est .head .menu.headroom .page { width: 100%;}
+#est .head .menu.headroom .page > * { padding-left: 0; padding-right: 0;}
+#est .head .menu.headroom--not-top { background: #1b1c1d;}
+#est .contact  i.circular.icon:hover, #est .about  i.circular.icon:hover { box-shadow: 0 0 0 .1em rgba(51,51,51,.6) inset;}
+#est .footer .c-mask { padding-top: 1rem; padding-bottom: 1rem; background: #1b1c1d;}
+
+.sk-folding-cube {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+}
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+          animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+          transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s; 
+}
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  } 
+}
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  }
+}
+
+ @media only screen and (max-width: 767px) {
+    #est .about .card { max-width: 250px;}
+    #est .team .wide.column { width: 100% !important;}
+    #est h1.header { font-size: 3rem;}
+    #est .head .info p { font-size: larger;}
+ }
