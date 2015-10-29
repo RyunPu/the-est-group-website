@@ -36,7 +36,7 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 #est .head .logo:hover { background: url(../img/logo.png) no-repeat; background-size: contain;}
 #est .head .flex { position: absolute; left: 0; top: -1rem; right: 0; height: 100%;}
 #est .head .c-bg { height: 100%;}
-#est h1.header { margin-bottom: 0; font-size: 6rem;}
+#est h1.header { margin-bottom: 0; font-size: 6rem; font-family: 'Nosifer',Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;}
 #est .head .info p { font-size: 2rem; color: #fff;}
 #est .head .arrow { position: absolute; left: 0; bottom: 1rem; right: 0; font-size: larger;}
 #est .head.headroom { height: auto;}
