@@ -12,12 +12,16 @@ $(function() {
             if (typeof window.orientation !== 'undefined') self.headroom();
             $('.dimmer.c-mask').on('touchmove', function(e) { e.preventDefault(); });
 
+            if ($('.cont').length) {
+                self.stickfooter();
+                $(window).scroll(self.stickfooter);
+                $(window).resize(self.stickfooter);
+            }
+
             new WOW({
                 mobile: false,
                 callback: function(box) {
-                    if ($(box).is('.logo')) {
-                        self.headroom();
-                    }
+                    if ($(box).is('.logo')) self.headroom();
                 }
             }).init();
 
@@ -55,6 +59,19 @@ $(function() {
                     unpinned: 'fadeOutUp'
                 }
             }).init();
+        },
+        stickfooter: function() {
+            var footer = $('.footer'),
+                content = $('.cont'),
+                BH = $('body').height(),
+                FH = footer.height(),
+                CH = content.height() + content.offset().top;
+
+            if (FH + CH < BH) {
+                footer.css('position', 'fixed');
+            } else {
+                footer.css('position', 'static');
+            }
         }
     };
 

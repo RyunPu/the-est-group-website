@@ -37,12 +37,12 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 #est .head .flex { position: absolute; left: 0; top: -1rem; right: 0; height: 100%;}
 #est .head .c-bg { height: 100%;}
 #est h1.header { margin-bottom: 0; font-size: 6rem; font-family: 'Nosifer',Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;}
-#est .head .info p { font-size: 2rem; color: #fff;}
+#est .head .info p { font-size: 2rem; color: #fff; font-family: 'Cabin Sketch',Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;}
 #est .head .arrow { position: absolute; left: 0; bottom: 1rem; right: 0; font-size: larger;}
 #est .head.headroom { height: auto;}
 #est .head.headroom .c-mask { background: #1b1c1d;}
 
-#est h2.header { font-size: 2rem;}
+#est h2.header { font-size: 2rem;font-family: 'Cabin Sketch',Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;}
 #est .icon.header { display: block;}
 #est .horizontal.divider { width: 90%; margin-left: auto; margin-right: auto;}
 #est .built .c-mask { padding-top: 4rem; padding-bottom: 4rem; background: -webkit-linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 48%, rgba(235,224,224,1) 100%); background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 48%, rgba(235,235,235,1) 100%);}
@@ -89,6 +89,7 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 #est .head .menu.headroom .page > * { padding-left: 0; padding-right: 0;}
 #est .head .menu.headroom--not-top { background: #1b1c1d;}
 #est .contact  i.circular.icon:hover, #est .about  i.circular.icon:hover { box-shadow: 0 0 0 .1em rgba(51,51,51,.6) inset;}
+#est .footer { bottom:0;}
 #est .footer .c-mask { padding-top: 1rem; padding-bottom: 1rem; background: #1b1c1d;}
 
 .sk-folding-cube {
