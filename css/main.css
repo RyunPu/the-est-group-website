@@ -1,4 +1,20 @@
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Sketch Regular'), local('CabinSketch-Regular'), url(../font/cabin.woff2) format('woff2');
+}
+
+/* latin */
+@font-face {
+  font-family: 'Nosifer';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nosifer'), local('Nosifer-Regular'), url(../font/nosifer.woff2) format('woff2');
+}
+
 a { -webkit-tap-highlight-color: transparent;}
+.hide { display: none !important;}
 .c-tal { text-align: left;}
 .c-tac { text-align: center;}
 .c-white, .c-white:hover, .c-white a, .c-white a:hover { color: #fff;}
@@ -9,6 +25,7 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 .wow { -webkit-animation-duration: .5s; animation-duration: .5s;}
 .wow.infinite { -webkit-animation-iteration-count:infinite; animation-iteration-count:infinite; -webkit-animation-direction: alternate-reverse; animation-direction: alternate-reverse;}
 .mask { right: 0; bottom: 0;}
+.ui.header + p, .ui.card .meta, .ui.cards > .card .meta { margin-top: 4px;}
 
 .phphub { background: url(../img/project/logo-phphub.png) no-repeat; background-size: contain;}
 .phphub-mobile { background: url(../img/project/logo-phphub-mobile.png) no-repeat; background-size: contain;}
@@ -24,7 +41,7 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 #est .c-white .circular { font-size: 1.5em; box-shadow: 0 0 0 .1em rgba(255,255,255,.5) inset;}
 #est .c-white .circular:hover { box-shadow: 0 0 0 .1em rgba(255,255,255,1) inset;}
 #est .wrap { width: 100%; margin: 0; padding: 0; border: none; border-radius: 0; box-shadow: none;}
-#est .divider > .icon { height: 1.2em; line-height: 1.2;}
+#est .divider > .icon { height: 1.2em; line-height: 1.2; color: #696968;}
 #est .stackable.page.grid { margin-left: 0 !important; margin-right: 0 !important;}
 
 #est .head, #est .head .page, #est .head .column { height: 100%;}
@@ -42,8 +59,8 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 #est .head.headroom { height: auto;}
 #est .head.headroom .c-mask { background: #1b1c1d;}
 
-#est h2.header { font-size: 2rem;font-family: 'Cabin Sketch',Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;}
-#est .icon.header { display: block;}
+#est h2.header { font-size: 2rem;font-family: 'Cabin Sketch',Lato,'Helvetica Neue',Arial,Helvetica,sans-serif; color: #696968;}
+#est .icon.header { display: block; font-weight: normal;}
 #est .horizontal.divider { width: 90%; margin-left: auto; margin-right: auto;}
 #est .built .c-mask { padding-top: 4rem; padding-bottom: 4rem; background: -webkit-linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 48%, rgba(235,224,224,1) 100%); background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 48%, rgba(235,235,235,1) 100%);}
 #est .built div.icon, #est .account div.icon { margin-bottom: 0;}
@@ -52,8 +69,13 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 #est .built .items .column, #est .account .items .column, #est .team .items .column { margin-top: 1rem;}
 
 #est .account .c-mask, #est .team .c-mask, #est .contact .c-mask { padding-top: 4rem; padding-bottom: 4rem;}
-#est .team .c-mask { -webkit-background: linear-gradient(135deg, rgba(24,42,115,1) 0%, rgba(33,138,174,1) 69%, rgba(32,167,172,1) 89%); background: linear-gradient(135deg, rgba(24,42,115,1) 0%, rgba(33,138,174,1) 69%, rgba(32,167,172,1) 89%);}
+#est .team { position: relative; }
+#est .team:before { content: ''; position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: #f5f5f5 url(../img/bg-team.jpg) center no-repeat; background-size: cover; -webkit-filter: blur(1.5px);}
+#est .team .c-mask { position: relative;}
+#est .team .c-mask:before { content: ''; position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: #406D6F; opacity: .2;}
+#est .team a { cursor: default;}
 #est .team .card { margin-left: auto; margin-right: auto;}
+#est .team .card .header { font-weight: normal;}
 #est .team .meta { white-space: nowrap;}
 #est .team img { width: 50%; margin-left: auto; margin-right: auto;}
 #team .avatar { width: 100%; padding-top: 80%;}
@@ -87,10 +109,10 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 #est .head .menu.headroom { position: fixed; top: 0; padding-top: 1rem; padding-bottom: 1rem;}
 #est .head .menu.headroom .page { width: 100%;}
 #est .head .menu.headroom .page > * { padding-left: 0; padding-right: 0;}
-#est .head .menu.headroom--not-top { background: #1b1c1d;}
+#est .head .menu.headroom--not-top { background: rgb(56, 155, 158);}
 #est .contact  i.circular.icon:hover, #est .about  i.circular.icon:hover { box-shadow: 0 0 0 .1em rgba(51,51,51,.6) inset;}
 #est .footer { bottom:0;}
-#est .footer .c-mask { padding-top: 1rem; padding-bottom: 1rem; background: #1b1c1d;}
+#est .footer .c-mask { padding-top: 1rem; padding-bottom: 1rem; background: rgb(56, 155, 158);}
 
 .sk-folding-cube {
   margin: 20px auto;

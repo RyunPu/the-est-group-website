@@ -8,7 +8,7 @@ $(function() {
             var self = this;
 
             $('.head a, .footer a').smoothScroll();
-            $('.dimmable.image').dimmer({on: 'hover'});
+            //$('.dimmable.image').dimmer({on: 'hover'});
             if (typeof window.orientation !== 'undefined') self.headroom();
             $('.dimmer.c-mask').on('touchmove', function(e) { e.preventDefault(); });
 
@@ -38,7 +38,7 @@ $(function() {
             var arr = [],
                 num = 0,
                 path = location.href.split('page/')[0].split('#')[0] + 'img/',
-                imgs = ['bg.jpg', 'avatar/lgl.png', 'avatar/lxx.png', 'avatar/pym.png', 'avatar/zh.png', 'avatar/zjh.png', 'avatar/zxx.png'];
+                imgs = ['bg.jpg', 'bg-team.jpg', 'avatar/lgl.png', 'avatar/lxx.png', 'avatar/pym.png', 'avatar/zh.png', 'avatar/zjh.png', 'avatar/zxx.png'];
 
             for (var i = 0, len = imgs.length; i < len; i++) {
                 arr[i] = new Image();
