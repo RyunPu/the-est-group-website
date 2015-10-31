@@ -208,3 +208,13 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
     #est h1.header { font-size: 3rem;}
     #est .head .info p { font-size: larger;}
  }
+
+ #i-wanna-say {
+  background-color: #060606;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: left;
+  padding-left: 20px;
+  width: 550px;
+  margin: 20px auto;
+ }
