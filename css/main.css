@@ -218,6 +218,6 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
   padding: 10px;
   text-align: left;
   padding-left: 20px;
-  width: 550px;
+  max-width: 550px;
   margin: 20px auto;
  }
