@@ -33,6 +33,29 @@ $(function() {
                     $(this).removeClass('infinite');
                 }
             );
+
+            // Instantiation
+            var theater = new TheaterJS();
+            theater.describe("iWannaSay", .8, "#i-wanna-say");
+
+            // Write the scenario
+            theater
+                .write("iWannaSay:We design and build: ", 800, "Web", 200)
+                .write(1000)
+                .write(-3)
+                .write("Mobile")
+                .write(1000)
+                .write(-6)
+                .write("Art")
+                .write(1000)
+                .write(-3)
+                .write("Amazing Product")
+                .write(800)
+                .write("...", 800)
+                .write(1000)
+                .write(-18)
+                .write("the Feature!", 2000);
+
         },
         loading: function() {
             var arr = [],
