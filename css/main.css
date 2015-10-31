@@ -78,6 +78,8 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 #est .team .card .header { font-weight: normal;}
 #est .team .meta { white-space: nowrap;}
 #est .team img { width: 50%; margin-left: auto; margin-right: auto;}
+#est .team h2 { color: #fff;}
+#est .team p .users.icon { color: #fff;}
 #team .avatar { width: 100%; padding-top: 80%;}
 .avatar.zxx { background: url(../img/avatar/zxx.png) center no-repeat; background-size: 60%;}
 .avatar.zjh { background: url(../img/avatar/zjh.png) center no-repeat; background-size: 60%;}
@@ -113,6 +115,7 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 #est .contact  i.circular.icon:hover, #est .about  i.circular.icon:hover { box-shadow: 0 0 0 .1em rgba(51,51,51,.6) inset;}
 #est .footer { bottom:0;}
 #est .footer .c-mask { padding-top: 1rem; padding-bottom: 1rem; background: rgb(56, 155, 158);}
+#est .footer i.red.icon{ color:#DA7D7D!important; font-size: 25px;}
 
 .sk-folding-cube {
   margin: 20px auto;
