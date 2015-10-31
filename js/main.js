@@ -40,15 +40,15 @@ $(function() {
 
             // Write the scenario
             theater
-                .write("iWannaSay:We design and build: ", 800, "Web", 200)
+                .write("iWannaSay:We design and build: ", 800, "Web Application", 200)
                 .write(1000)
-                .write(-3)
-                .write("Mobile")
+                .write(-15)
+                .write("Mobile App")
                 .write(1000)
-                .write(-6)
-                .write("Art")
+                .write(-10)
+                .write("Art ;-)")
                 .write(1000)
-                .write(-3)
+                .write(-7)
                 .write("Amazing Product")
                 .write(800)
                 .write("...", 800)
