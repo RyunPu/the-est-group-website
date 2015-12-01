@@ -33,7 +33,7 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 .githubdaily { background: url(../img/logo-githubdaily.png) no-repeat; background-size: contain;}
 
 #est .c-mask { height: 100%;}
-#est .c-mask.dimmer { position: fixed; right: 0; bottom: 0; width: 100%; background: #000 url(../img/loading.gif) center no-repeat;}
+#est .c-mask.dimmer { position: fixed; right: 0; bottom: 0; width: 100%; background: #000 url(../img/loading.GIF) center no-repeat;}
 #est .c-mask.dimmer .content { display: none;}
 #est .c-a a, #est .c-a .a { position: relative;}
 #est .c-a a:before, #est .c-a .a:before { display: block !important; position: absolute; top: auto; bottom: 1px; left: 0; width: 100%; height: 1px; background-color: #4183c4; content: ''; -webkit-transition: all 0.2s; -webkit-backface-visibility: hidden; transition: all 0.2s; backface-visibility: hidden; -webkit-transform: scaleX(0); transform: scaleX(0);}
