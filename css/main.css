@@ -68,6 +68,7 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 #est .built .items i.icon, #est .account .items i.icon { width: 33%; margin: 0 auto 1.5rem; padding-top: 33%;}
 #est .built .items p, #est .account .items p { width: 90%; margin-left: auto; margin-right: auto;}
 #est .built .items .column, #est .account .items .column, #est .team .items .column { margin-top: 1rem;}
+#est .team .items > .column { cursor: default;}
 
 #est .account .c-mask, #est .team .c-mask, #est .contact .c-mask { padding-top: 4rem; padding-bottom: 4rem;}
 #est .team { position: relative; }
@@ -116,6 +117,11 @@ i.icon:hover { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 1;
 #est .footer { bottom:0;}
 #est .footer .c-mask { padding-top: 1rem; padding-bottom: 1rem; background: rgb(56, 155, 158);}
 #est .footer i.red.icon{ color:#DA7D7D!important; font-size: 25px;}
+
+.fork { display: none;}
+@media only screen and (min-width: 1200px) {
+    .fork { display: block;}
+}
 
 .sk-folding-cube {
   margin: 20px auto;

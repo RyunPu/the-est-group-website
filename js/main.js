@@ -8,7 +8,7 @@ $(function() {
             var self = this;
 
             $('.head a, .footer a').smoothScroll();
-            //$('.dimmable.image').dimmer({on: 'hover'});
+            $('.dimmable.image').dimmer({on: 'hover'});
             if (typeof window.orientation !== 'undefined') self.headroom();
             $('.dimmer.c-mask').on('touchmove', function(e) { e.preventDefault(); });
 
