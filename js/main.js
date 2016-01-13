@@ -54,7 +54,7 @@ $(function() {
                 .write("...", 800)
                 .write(1000)
                 .write(-18)
-                .write("the Future, Baby!", 2000);
+                .write("the Future, ;-)", 2000);
 
         },
         loading: function() {
