@@ -1,0 +1,14 @@
+{
+    "name": "The EST Group",
+    "description": "The EST Group - We design and build: the Future, Baby!",
+    "version": "1.0.0",
+    "homepage": "http://est-group.org/",
+    "dependencies": {
+        "jquery": "2.2.1",
+        "semantic-ui": "2.1.8",
+        "swiper": "3.3.1",
+        "jquery-mousewheel": "3.1.13",
+        "theaterjs": "1.4.2",
+        "animate.css": "3.5.1"
+    }
+}
